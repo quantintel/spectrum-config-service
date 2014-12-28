@@ -29,3 +29,7 @@ be limited to:
 
 All other configuration information is retrieved on initialization and stored in memory.
 
+An initial implementation may include a simple proxying web service which in turn calls
+a Neo4J REST interface.  This abstraction will allow the implementation to be modified
+at a future point in time if necessary.  An implementation like this would require
+little initial effort to develop.
